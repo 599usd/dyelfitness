@@ -6,5 +6,5 @@ Style/Documentation:
 
 AllCops:
   Exclude:
-    - 'bin/*'
-    - 'vendor/*'
+    - 'bin/**/*'
+    - 'vendor/**/*'
