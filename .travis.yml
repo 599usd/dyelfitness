@@ -1,3 +1,6 @@
 language: ruby
 rvm:
   - 2.2.1
+
+notifications:
+  slack: 599usd:B0DOtJoavDYZIWfj9ML4L2JL
