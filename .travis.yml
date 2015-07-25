@@ -6,4 +6,4 @@ notifications:
   slack: 599usd:B0DOtJoavDYZIWfj9ML4L2JL
 
 before_script:
-  - psql -c 'create database dyel_test;'
+  - psql -c 'create database dyel_test;' -U postgres
