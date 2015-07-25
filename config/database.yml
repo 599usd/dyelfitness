@@ -7,10 +7,13 @@ development:
   <<: *default
   database: dyel_dev
 
-test:
+test: &test
   <<: *default
   database: dyel_test
 
 production:
   <<: *default
   database: dyel
+
+cucumber:
+  <<: *test
