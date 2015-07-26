@@ -1,4 +1,5 @@
 task :default do
   Rake::Task['rubocop'].invoke
-  Rake::Task['test'].invoke
+  Rake::Task['scss_lint'].invoke
+  Rake::Task['cucumber'].invoke
 end

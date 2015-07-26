@@ -1,0 +1,54 @@
+$dyel-blue: #629de4;
+$dyel-black: #333;
+$dyel-gray: #666;
+$font-family: 'Oswald', sans-serif;
+
+.dyel-navbar {
+  background-color: $dyel-blue;
+  color: $dyel-black;
+  font-family: $font-family;
+  height: 50px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar-links {
+  list-style: none;
+  margin: 10px 0;
+  padding: 0 30px;
+
+  li {
+    display: inline;
+    font-size: 20px;
+    font-weight: 300;
+    padding-left: 15px;
+  }
+
+  a {
+    color: $dyel-black;
+    text-decoration: none;
+
+    &:hover {
+      border-bottom: 2px solid $dyel-black;
+    }
+  }
+}
+
+.navbar-title {
+  font-size: 24px;
+  font-weight: 400;
+  list-style: none;
+  margin: 6px 0;
+  padding: 0 30px;
+
+  a {
+    color: $dyel-black;
+    text-decoration: none;
+
+    &:hover {
+      text-shadow: 0 0 1px $dyel-gray;
+    }
+  }
+}

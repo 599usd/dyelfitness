@@ -8,3 +8,6 @@ AllCops:
   Exclude:
     - 'bin/**/*'
     - 'vendor/**/*'
+    - 'lib/**/*'
+    - 'db/schema.rb'
+    - 'features/support/env.rb'
