@@ -22,6 +22,6 @@ group :test do
   gem 'rspec'
   gem 'cucumber-rails', require: false
   gem 'rubocop', require: false
-  gem 'scss_lint'
+  gem 'scss_lint', require: false
   gem 'database_cleaner'
 end
